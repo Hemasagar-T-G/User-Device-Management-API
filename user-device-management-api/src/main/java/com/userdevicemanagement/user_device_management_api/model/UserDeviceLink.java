@@ -6,9 +6,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "UserDeviceLinks")
 public class UserDeviceLink {
     @Id
-    private String id;         // Unique identifier for the link
-    private User user;        // Full User object
-    private String deviceId;   // Device ID (as a string)
+    private String id;         
+    private User user;        
+    private String deviceId; 
 
     // Getters and Setters
     public String getId() {
