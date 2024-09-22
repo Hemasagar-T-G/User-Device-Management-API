@@ -6,5 +6,5 @@ import com.userdevicemanagement.user_device_management_api.model.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
-    // Custom query methods can be added here if needed
+    
 }
