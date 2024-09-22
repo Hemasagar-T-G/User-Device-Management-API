@@ -9,12 +9,12 @@ import java.time.LocalDateTime;
 
 import org.bson.types.ObjectId;
 
-@Document(collection = "Users") // Specify the collection name
+@Document(collection = "Users") //collection name
 public class User {
 
     @Id
-    private ObjectId id; // MongoDB ObjectId
-    private String userId; // Custom user ID
+    private ObjectId id;
+    private String userId;
     private String name;
     private String email;
     private String phoneNumber;
@@ -88,7 +88,6 @@ public class User {
         return updatedDate;
     }
     
-    // Manual methods to set dates if required
     public void setCreatedDate(LocalDateTime createdDate) {
         this.createdDate = createdDate;
     }
