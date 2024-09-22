@@ -6,5 +6,5 @@ import com.userdevicemanagement.user_device_management_api.model.UserDeviceLink;
 
 @Repository
 public interface UserDeviceLinkRepository extends MongoRepository<UserDeviceLink, String> {
-    // Custom query methods can be added here if needed
+
 }
