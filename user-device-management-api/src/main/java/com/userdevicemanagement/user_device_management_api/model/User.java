@@ -19,16 +19,14 @@ public class User {
     private String email;
     private String phoneNumber;
     @CreatedDate
-    private LocalDateTime createdDate; // Automatically populated on creation
+    private LocalDateTime createdDate;
 
     @LastModifiedDate
-    private LocalDateTime updatedDate; // Automatically populated on update
-
- // No-argument constructor (required)
+    private LocalDateTime updatedDate;
+	
     public User() {
     }
-
-    // All-argument constructor (optional)
+	
     public User(ObjectId id, String userId, String name, String email, String phoneNumber, LocalDateTime createdDate, LocalDateTime updatedDate) {
         this.id = id;
         this.userId = userId;
